@@ -21,7 +21,7 @@ export default {
   render(createElement, context) {
     const {props, children} = context;
 
-    const data = {
+    const data = Object.assign(context.data, {
       props: {
         tag: 'div',
         css: false,
@@ -50,7 +50,7 @@ export default {
           }, calcDelay);
         }
       }
-    };
+    });
 
     return createElement('transition-group', data, children);
   }

@@ -1,14 +1,12 @@
 {
   "name": "vue-staged-transition",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple Vue Component to perform stage delayed transitions.",
   "main": "src/StagedTransition.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FedericoMameliPrjs/vue-staged-transition.git"
+    "url": "git+https://github.com/fech-dev/vue-staged-transition.git"
   },
   "keywords": [
     "vue",
@@ -21,7 +19,7 @@
   "author": "Mameli Federico <federico_mameli@yahoo.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/FedericoMameliPrjs/vue-staged-transition/issues"
+    "url": "https://github.com/fech-dev/vue-staged-transition/issues"
   },
   "homepage": "https://github.com/FedericoMameliPrjs/vue-staged-transition#readme",
   "dependencies": {
