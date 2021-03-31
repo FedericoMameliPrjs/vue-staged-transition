@@ -15,6 +15,10 @@ export default {
     appear: {
       type: Boolean,
       default: false
+    },
+    mode: {
+      type: String,
+      default: 'in-out'
     }
   },
 
@@ -25,7 +29,8 @@ export default {
       props: {
         tag: 'div',
         css: false,
-        appear: props.appear
+        appear: props.appear,
+        mode: props.mode
       },
       on: {
         beforeEnter(el) {
