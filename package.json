@@ -1,6 +1,6 @@
 {
   "name": "vue-staged-transition",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Simple Vue Component to perform stage delayed transitions.",
   "main": "src/StagedTransition.js",
   "scripts": {},
